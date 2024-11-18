@@ -1,0 +1,12 @@
+# config/config.yaml
+market_data:
+  cache_expiry_minutes: 5
+
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  handlers:
+    console: true
+    file: 
+      enabled: true
+      path: "logs/market_data.log"
